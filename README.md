@@ -163,8 +163,8 @@ Used to analyze prediction errors and threshold tuning.
 ## 💬 Demo System
 
 The model supports real-time predictions:
-<img width="733" height="504" alt="image" src="https://github.com/user-attachments/assets/799c9906-c071-48d3-a26e-8dad6fb67f99" />
-<img width="615" height="497" alt="image" src="https://github.com/user-attachments/assets/5f245989-de44-4dc4-a5c7-4f47e265efd8" />
+<img width="1121" height="715" alt="image" src="https://github.com/user-attachments/assets/90ba15e9-8792-4229-9ff7-bb44ad3b7dbf" />
+<img width="1102" height="727" alt="image" src="https://github.com/user-attachments/assets/c8c7564c-3a4f-4b5b-a09d-6065d3a925d8" />
 
 ### Example:
 
