@@ -5,7 +5,30 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.metrics import ConfusionMatrixDisplay
+st.set_page_config(page_title="HateSense AI", layout="wide")
 
+# ---------------- Sidebar ----------------
+st.sidebar.title("🔗 Project Links")
+
+st.sidebar.markdown("""
+### 📂 Resources
+- 🔗 [GitHub Repo](https://github.com/stargalax/NeuroLogic-26-Global-NLP-Datathon)
+- 📓 [Google Colab Notebook](https://colab.research.google.com/drive/1Zr9ayjbNezG_Y3jhnZa1AOW-7KxTAo6J?usp=sharing)
+- 🎥 [YouTube Demo](https://youtu.be/s0G42Ze59_o)
+
+---
+
+### 🧠 About
+Multilingual Toxic Comment Detection using ML ensemble models.
+
+---
+
+### ⚙️ Tech Stack
+- TF-IDF
+- Logistic Regression
+- Linear SVM
+- Streamlit
+""")
 # LOAD MODELS
 vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
 lr = pickle.load(open("models/lr.pkl", "rb"))
